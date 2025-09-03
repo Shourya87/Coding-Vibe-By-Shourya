@@ -13,5 +13,6 @@ Code until I get the internship 💻
 
 Follow the journey:  
 📸 Instagram: @coding_vibe_with_shourya
+
 💼 LinkedIn: www.linkedin.com/in/shourya-vibecode
 
