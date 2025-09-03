@@ -1,7 +1,7 @@
 # 🚀 Internship Hustle Challenge
 
 This repo tracks my journey to land a paid tech internship.  
-I post DSA problems, Java logic, and frontend mini projects every 2 days.
+I post DSA problems, Java logic every days and frontend mini projects  on weekends.
 
 ## 🔧 Skills Covered
 - Java & DSA
