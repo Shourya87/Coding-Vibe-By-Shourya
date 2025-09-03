@@ -12,6 +12,6 @@ I post DSA problems, Java logic every days and frontend mini projects  on weeken
 Code until I get the internship 💻
 
 Follow the journey:  
-📸 Instagram: https://www.instagram.com/coding_vibe_with_shourya?igsh=bWUwMWZ5anMyMmg0
+📸 Instagram: @coding_vibe_with_shourya
 💼 LinkedIn: www.linkedin.com/in/shourya-vibecode
 
