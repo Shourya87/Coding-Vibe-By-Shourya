@@ -12,5 +12,5 @@ I post DSA problems, Java logic every days and frontend mini projects  on weeken
 Code until I get the internship 💻
 
 Follow the journey:  
-💼 LinkedIn: www.linkedin.com/in/shourya-vibecode
+💼 LinkedIn: www.linkedin.com/in/shourya-gaur
 
