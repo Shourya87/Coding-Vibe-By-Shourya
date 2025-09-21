@@ -1,0 +1,210 @@
+@import url("https://fonts.cdnfonts.com/css/mixolydian-titling");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  position: relative;
+}
+
+.left-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 0;
+  background-image: linear-gradient(135deg, #e0f7fa 0%, #80deea 50%);
+}
+
+.left-panel div {
+  display: flex;
+  flex-direction: row;
+  margin: 8rem 6rem 0 0;
+}
+
+.left-panel h1 {
+  font-size: 4rem;
+  font-family: "Mixolydian Titling", sans-serif;
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.758);
+}
+
+#notsymbol {
+  color: #0ed3ed;
+}
+
+.left-panel p {
+  font-size: 1.3rem;
+  padding: 1.5rem 7rem 0 0;
+  color: rgba(0, 0, 0, 0.658);
+}
+
+img {
+  position: absolute;
+  height: auto;
+  width: 47vw;
+  top: 50%;
+  left: 50%;
+  margin-right: 20px;
+  transform: translate(-60%, -50%) rotate(-23deg);
+  z-index: 1;
+  animation: transformImg 5s infinite ease-in-out;
+}
+@keyframes transformImg {
+  0% {
+    transform: translate(60%, -50%) rotate(0deg);
+    opacity: 0;
+    z-index: 0;
+  }
+  30% {
+    transform: translate(-50%, -50%) rotate(-23deg);
+    opacity: 1;
+    z-index: 2;
+  }
+  70% {
+    transform: translate(-50%, -50%) rotate(-23deg);
+    opacity: 1;
+    z-index: 2;
+  }
+  100% {
+    transform: translate(60%, -50%) rotate(0deg);
+    opacity: 0;
+    z-index: 0;
+  }
+}
+
+
+.right-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  background-color: white;
+  border-left: 4px #43d3e6 solid;
+  gap: 10px;
+}
+
+.right-panel h2 {
+  font-size: 2.9rem;
+}
+
+.right-panel h2 span {
+  color: #80deea;
+}
+
+.right-panel form {
+  width: 80%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.right-panel div {
+  width: 35em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.7rem;
+}
+
+.right-panel label {
+  font-size: 1.1rem;
+  font-weight: 550;
+  color: rgba(0, 0, 0, 0.727);
+  align-self: self-start;
+  margin-left: 6.2rem;
+}
+
+.right-panel input {
+  width: 65%;
+  min-height: 4%;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: small;
+}
+
+.right-panel select {
+  width: 65%;
+  min-height: 4%;
+  padding: 10px;
+  border-radius: 6px;
+  color: #000607b5;
+  border: 2px solid #000607;
+  font-size: small;
+}
+
+.right-panel p {
+  color: red;
+  font-size: smaller;
+  margin-bottom: 1.4rem;
+  padding: 5px;
+  visibility: hidden;
+}
+
+.right-panel p.checkboxWarning {
+  visibility: visible;
+  animation: blink 2s infinite;
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.right-panel pre {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: normal;
+  margin: 1rem 8rem 0 0;
+}
+input[type="checkbox"] {
+  accent-color: #00d0ff; /* Neon glow */
+  margin-top: 2px;
+}
+
+.right-panel button {
+  background-color: #00e1ff;
+  color: white;
+  font-size: 1.3rem;
+  margin: 0px 0 20px 0;
+  padding: 7px 30px;
+  cursor: pointer;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.right-panel p:last-child {
+  font-size: 1.2rem;
+  align-self: center;
+  color: black;
+  visibility: visible;
+}
+
+.right-panel p a {
+  font-size: 1.2rem;
+  color: #00e1ff;
+}

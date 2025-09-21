@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Staff Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style-profile.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading"> <!-- Heading -->
+        <h1>Welcome,</h1>
+        <h1>
+          To Hospital Staff Profile <i class="fa-regular fa-address-card"></i>
+        </h1>
+      </div>
+
+      <div class="card-section">
+        <div class="card"> <!-- Card Design Box-->
+          <div class="card-pic-name"> <!-- Name -->
+            <i class="fa-etch fa-solid fa-circle-user"></i>
+            <h2>&nbsp;<span id="card-name"></span></h2>
+          </div>
+
+          <div class="card-id"> <!-- ID -->
+            <h5><i class="fa-solid fa-image-portrait"></i>ID -&nbsp;<span id="card-id"></span></h5>
+          </div>
+
+          <div class="card-number"> <!-- Phone Number -->
+            <h5><i class="fa-solid fa-square-phone"></i>Phone No. -&nbsp;<span id="card-number"></span></h5>
+          </div> 
+
+          <div class="card-email"> <!-- Email -->
+            <h5><i class="fa-solid fa-envelope"></i>Email -&nbsp;<spna id="card-email"></spna></h5>
+          </div>
+
+          <div class="card-role"> <!-- Role -->
+            <h5><i class="fa-solid fa-user-doctor"></i>Role -&nbsp;<span id="card-role"></span></h5>
+          </div>
+
+          <div class="card-password"> <!-- Password -->
+            <h5><i class="fa-duotone fa-solid fa-lock"></i>Password -&nbsp;<span id="card-password"></span></h5>
+          </div>
+
+          <hr />
+          <div class="card-date"> <!-- Joining Date -->
+            <h5><i class="fa-solid fa-calendar-days"></i>Date of Joining -</h5>
+            <span id="card-date"></span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="footer">  <!-- Quote & Company Name in Footer -->
+        <h4>"Compassion is the heart of healing."</h4>
+        <h6>- CITY HOSPITAL</h6>
+      </div>
+    </div>
+    <script src="script-profile.js"></script>
+  </body>
+</html>

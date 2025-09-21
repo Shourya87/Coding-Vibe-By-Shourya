@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Login-Page</title>
+    <link rel="stylesheet" href="style-login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel"> <!-- Left Panel -->
+            <div><h1>Hello&nbsp;</h1><h1 id="notsymbol">!</h1></div>
+            <p>Please enter your details to log in.</p>
+        </div>
+
+        <!-- Center Doctor Image -->
+        <img src="doctor.png" alt="doctor-image-sticker">
+
+        <div class="right-panel"> <!--- Right Panel -->
+            <h2><span>CITY</span> Hospital</h2>
+            <h2><i class="fa-solid fa-hospital"></i></h2>
+            <form>
+                <div> <!-- Login Id -->
+                    <label for="email">Username or E-mail</label>
+                    <input type="text" id="email" placeholder="Username or E-mail">
+                </div>
+
+                <div> <!-- Password -->
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Password">
+                </div>
+
+                <pre id="wrongInfo">The username or password is incorrect. Please enter
+                     the correct information. </pre>
+
+                <button type="button" onclick="LogIn()">Log in</button>
+                <p>Don't have Account? <a href="#">Sign Up</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="script-login.js"></script>
+</body>
+</html>
