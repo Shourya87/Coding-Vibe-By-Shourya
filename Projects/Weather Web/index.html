@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather Web</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+
+      <!-- Dark Mode Button -->
+      <div class="theme-box">
+        <div class="theme-btn">
+          <button>O</button>
+        </div>
+        <p class="theme-text">Dark Mode</p>
+      </div>
+
+      <!-- Search bar -->
+      <div class="search-box">
+        <div class="search-box-bar" type="button">
+          <input type="search" id="search-city" placeholder="Search for your preffered city....">
+          <img src="image.png"id="search-icon" alt="search-icon">
+        </div>
+      </div>
+
+      <!-- Current Location Button -->
+      <div class="location-box">
+        <div class="location-btn">
+          <button class="fa-solid fa-location-crosshairs"></button>
+          <p>Current Location</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Body -->
+    <div class="main">
+
+      <!-- Row-1 -->
+      <div class="main-row1">
+
+        <!-- Row-1  Box-1: Time & Date -->
+        <div class="row1-box1">
+          <p class="box1-city" id="box1-city">Delhi</p>
+          <p class="box1-time" id="box1-time">09:03</p>
+          <p class="box1-date" id="box1-date">2025-10-10</p>
+        </div>
+
+        <!-- Row-1 Box-2: Temp & Image -->
+        <div class="row1-box2">
+          <div>
+            <pre id="box2-temp">22<sup>°C</sup></pre>
+          </div>
+          <div style="display: flex; flex-direction: column;">
+            <img src="assets/cloud.png" id="box2-img" alt="Weather-image">
+            <p id="box2-weather-text">Sunny</p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Row 2 -->
+      <div class="main-row2">
+
+        <!-- Row-2 Box-1: Days Forecast -->
+        <div class="row2-box1">
+          <h3>5 Days Forecast:</h3>
+          <div class="days-list">
+            <div class="day1-list">
+              <img src="assets/mist.png">
+              <h6>20°C</h6>
+              <p>Mon,29 Sep</p>
+            </div>
+
+            <div class="day2-list">
+              <img src="assets/snow.png">
+              <h6>23°C</h6>
+              <p>Tue,30 Sep</p>
+            </div>
+
+            <div class="day3-list">
+              <img src="assets/sunny.png">
+              <h6>26°C</h6>
+              <p>Wed,1 Oct</p>
+            </div>
+
+            <div class="day4-list">
+              <img src="assets/cloud.png">
+              <h6>22°C</h6>
+              <p>Thr,2 Oct</p>
+            </div>
+
+            <div class="day5-list">
+              <img src="assets/sunny.png">
+              <h6>27°C</h6>
+              <p>Fri,3 Oct</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Row-2 Box-2: Hourly Forecast -->
+        <div class="row2-box2">
+          <h3>Hourly Forecast:</h3>
+          <div class="hours-list">
+            <div class="hour-1">
+              <h6>12:00</h6>
+              <img src="assets/sunny.png">
+              <p>24°C</p>
+            </div>
+            <div class="hour-2">
+              <h6>01:00</h6>
+              <img src="assets/rain.png">
+              <p>25°C</p>
+            </div>
+            <div class="hour-3">
+              <h6>02:00</h6>
+              <img src="assets/rain.png">
+              <p>26°C</p>
+            </div>
+            <div class="hour-4">
+              <h6>03:00</h6>
+              <img src="assets/sunny.png">
+              <p>26°C</p>
+            </div>
+            <div class="hour-5">
+              <h6>04:00</h6>
+              <img src="assets/cloud.png">
+              <p>22°C</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>&COPY;2025 Weather Web.All rights reserved.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
