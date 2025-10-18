@@ -1,5 +1,3 @@
-# 🚀 Internship Hustle Challenge
-
 This repo tracks my journey to land a tech internship that help me to enhance my skills.  
 I post DSA problems, Java logic every days and frontend mini projects  on weekends.
 
