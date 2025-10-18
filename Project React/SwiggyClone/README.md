@@ -38,16 +38,10 @@
 
 ## 📚 Learning Journey:
 
- I’m learning React as part of my side hustle, while consistently practicing Java with DSA every single day. For those who say learning more than one  languages together in programming isn’t easy —I’m living proof that it is. Discipline, curiosity, and consistency make it work.
-
-
-
 This project is part of my journey to master frontend engineering and build interfaces that are not just functional, but delightful. More updates coming soon as I refine animations, add toast notifications, and explore voice-enabled features.
 
 
 
-📽️ Check out the video for a walkthrough of the UI and design decisions.
-
-
  #FrontendDevelopment #ReactJS #TailwindCSS #UIDesign #SwiggyClone #AIinDev #WebDesign #DeveloperJourney #CreativeCoding #LinkedInDev
+
 
