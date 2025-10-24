@@ -133,3 +133,75 @@ span{
 .footer h4{
     font-family: sans-serif;
 }
+
+
+@media (max-width: 600px) {
+  .card {
+    width: 80%;
+    height: 100%;
+    gap: 0.8rem;
+    padding: 1rem;
+  }
+
+  .card-section{
+    align-items: flex-start;
+    height: 35vh;
+  }
+  
+.card-pic-name {
+  font-size: 1em;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  text-shadow: 0.5px 1px 2px black;
+}
+.card-pic-name i {
+  font-size: 2rem;
+}
+
+.card-id {
+  font-size: 1.1em;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.card-number {
+  font-size: 1.1em;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.card-email {
+  font-size: 1.1em;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.card-role {
+  font-size: 1.1em;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.card-password {
+  font-size: 1.1em;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.card-date {
+  font-size: 1.1em;
+  font-family: sans-serif;
+  align-self: flex-start;
+}
+
+.footer{
+  padding-top: 2rem;
+}
+}
