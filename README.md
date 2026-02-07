@@ -1,14 +1,42 @@
-This repo tracks my journey to land a tech internship that help me to enhance my skills.  
-I post DSA problems, Java logic every days and frontend mini projects  on weekends.
+# 🚀 Coding Vibe — by Shourya
 
-## 🔧 Skills Covered
-- Java & DSA
-- Frontend (HTML, CSS, JS, React)
-- UI/UX Design
+> A consistent, disciplined journey toward landing a frontend / software development internship.
 
-## 💡 Motto
-Code until I get the internship 💻
+This repository documents my **daily problem-solving practice** and **hands-on frontend projects**.  
+The focus is on building strong fundamentals, writing clean code, and improving UI thinking over time.
 
-Follow the journey:  
-💼 LinkedIn: www.linkedin.com/in/shourya-gaur
+---
+
+## 📌 About This Repository
+
+- 💡 Daily **Java + DSA** practice
+- ⚛️ **Frontend mini-projects** using React
+- 🎯 Focus on **consistency > shortcuts**
+- 🧠 Learning by **building, breaking, and fixing**
+
+> The goal is simple: *become industry-ready through real practice.*
+
+---
+
+## 🛠 Skills & Technologies
+
+### 👨‍💻 Programming
+- **Java** (DSA, problem solving, logic building)
+- **JavaScript (ES6+)**
+
+### 🎨 Frontend
+- **HTML5**
+- **CSS3**
+- **React.js**
+- Responsive Design & Layouts
+
+### 🧩 UI / UX
+- Component-based design
+- Clean & minimal interfaces
+- User-focused thinking
+
+---
+
+## 📂 Project Structure
+
 
