@@ -39,4 +39,31 @@ The focus is on building strong fundamentals, writing clean code, and improving 
 
 ## 📂 Project Structure
 
+---
+
+## 🌱 What I’m Currently Working On
+
+- Strengthening **DSA fundamentals**
+- Building **real-world frontend projects**
+- Improving **code readability & structure**
+- Preparing for **frontend internships**
+
+---
+
+## 💡 Motto
+
+> **“Code consistently until the opportunity has no choice but to find you.”**
+
+---
+
+## 🔗 Connect With Me
+
+- 💼 LinkedIn: [Shourya Gaur](https://www.linkedin.com/in/shourya-gaur)
+- 🌐 Live Projects: https://coding-vibe-by-shourya.vercel.app
+
+---
+
+⭐ If you find this repo useful or relatable, feel free to star it!
+
+
 
