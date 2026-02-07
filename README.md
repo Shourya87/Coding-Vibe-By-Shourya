@@ -38,6 +38,9 @@ The focus is on building strong fundamentals, writing clean code, and improving 
 ---
 
 ## 📂 Project Structure
+├── Java with DSA # Daily DSA & logic practice
+├── Project React # React-based frontend projects
+├── Projects # Mini projects & experiments
 
 ---
 
