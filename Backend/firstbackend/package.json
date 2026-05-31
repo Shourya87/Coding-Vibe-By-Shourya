@@ -1,11 +1,14 @@
 {
-  "name": "firstbackend",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Intro to backend",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Shourya",
-  "license": "ISC"
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
