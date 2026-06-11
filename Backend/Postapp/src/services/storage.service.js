@@ -6,6 +6,7 @@ const imagekit = new ImageKit({
 
 async function uploadFile(buffer) {
   try {
+
     const result = await imagekit.files.upload({
       file: buffer.toString("base64"),
       fileName: `image-${Date.now()}.jpg`
