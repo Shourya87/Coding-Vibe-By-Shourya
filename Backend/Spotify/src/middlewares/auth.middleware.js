@@ -17,6 +17,10 @@ async function authArtist(req, res, next){
             return res.status(403).json({ message: "You don't have account"})
         }
 
+        req.user = decoded;
+
+        next();
+
     }
     catch(err){
         console.log(err);
