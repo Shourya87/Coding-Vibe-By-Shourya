@@ -9,6 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 
+// All done
 
 app.use('/auth/api', authRoutes);
 app.use('/auth/music', musicRoutes)
