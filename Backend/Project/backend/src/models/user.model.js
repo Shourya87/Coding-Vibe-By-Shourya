@@ -19,10 +19,13 @@ const userSchema = new mongoose.Schema({
         type: String,
         enum: ["user", "admin"],
         default: 'user'
-    }
+    },
+    verified: {
+        type: Boolean,
+        default: false
+    },
 })
 
 
 const userModel = mongoose.model("user", userSchema);
-
 module.exports = userModel;
