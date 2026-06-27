@@ -1,7 +1,8 @@
 const user = require("../models/user.model");
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
-const sendEmail = require('../utils/send.email')
+const sendEmail = require('../utils/send.email');
+const userModel = require("../models/user.model");
 
 
 async function registerUser(req, res) {
@@ -10,7 +11,7 @@ async function registerUser(req, res) {
   const token = jwt.sign({
         id: user._id,
         role: user.role
-    }, process.env.JWT_SECRET, { expiration: '30d' });
+    }, process.env.JWT_SECRET, { expiresIn: '30d' });
 
 
   try {
@@ -54,9 +55,35 @@ async function registerUser(req, res) {
 
 
 async function loginUser(req, res) {
-  res.send("Login");
+  const { email, password } = req.body;
+  try {
+    const user = await userModel.findOne({ email });
+    if(user && (await bcrypt.compare(password, user.password))) {
+      res.json({
+        _id: user._id,
+        name: user.name,
+        email: user.email,
+        role: user.role,
+        token: generateToken(user._id)
+      });
+    } else {
+      res.status(400).json({ message: 'Invalid email or password' });
+    }
+  } catch (error) {
+    res.status(500).json({ message: 'Server error' });
+  }
 }
 
+
+
+async function getUsers(req, res) {
+  try {
+    const users = await userModel.find({}).select('-password');
+    res.json(users);
+  } catch (error) {
+    res.status(500).json({ message: "Server Error"});
+  }
+}
 
 
 
@@ -64,4 +91,4 @@ async function logoutUser(req, res) {
   res.send("Logout");
 }
 
-module.exports = { registerUser, loginUser, logoutUser };
+module.exports = { registerUser, loginUser, getUsers, logoutUser };
