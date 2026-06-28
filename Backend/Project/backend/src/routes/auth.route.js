@@ -8,7 +8,7 @@ const admin = require('../middleware/admin.middleware')
 
 router.post('/register', registerUser);
 router.post('/login', loginUser);
-router.get('/user', protect, admin, getUsers);
+router.get('/users', protect, admin, getUsers);
 
 
 
