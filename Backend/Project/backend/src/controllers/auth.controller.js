@@ -45,7 +45,7 @@ async function registerUser(req, res) {
       Your OTP for ShopNest registration is: ${otp}
       `;
 
-      await sendEmail(email, "Welcome to ShopNest - Your OTP for Registration", message,);
+      await sendEmail(email, "Welcome to ShopNest - Your OTP for Registration", message);
 
       res.status(201).json({ message:"User registered successfully. Please check your email for the OTP." });
 
