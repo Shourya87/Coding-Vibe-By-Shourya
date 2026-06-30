@@ -4,7 +4,7 @@ const admin = require('../middleware/admin.middleware');
 const router = express.Router();
 const { getProducts, getProductsById, createProduct, updateProduct, deleteProduct } = require('../controllers/products.controller');
 const multer = require('multer');
-const upload = multer({ dest: 'uploads/' });
+const upload = multer({ dest: 'src/uploads/' });
 
 
 
