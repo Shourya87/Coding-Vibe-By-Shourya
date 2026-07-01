@@ -7,7 +7,7 @@ const authRoutes = require('./src/routes/auth.route')
 const productsRoutes = require('./src/routes/products.route');
 const ordersRoutes = require('./src/routes/orders.route');
 const paymentRoutes = require('./src/routes/payment.route');
-// const adminRoutes = require('./src/routes/admin.route');
+const analyticsRoutes = require('./src/routes/analytics.route');
 
 
 
@@ -32,7 +32,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/products', productsRoutes);
 app.use('/api/orders', ordersRoutes);
 app.use('/api/payment', paymentRoutes);
-// app.use('/api/admin', adminRoutes);
+app.use('/api/analytics', analyticsRoutes);
 
 
 
