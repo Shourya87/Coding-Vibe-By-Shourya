@@ -10,10 +10,7 @@ async function getAdminStats(req, res) {
 
     const orders = await Order.find({});
 
-    const totalRevenueData = orders.reduce(
-      (acc, order) => acc + order.totalAmount,
-      0,
-    );
+    const totalRevenue = orders.reduce((acc, item) => acc + (Number(item.totalAmount) || 0),0);
 
     res.json({
       totalUsers,
