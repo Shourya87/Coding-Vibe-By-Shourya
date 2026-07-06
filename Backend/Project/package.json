@@ -1,0 +1,19 @@
+{
+  "name": "shopnest-full-stack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:server": "cd backend && npm start",
+    "dev:client": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build": "cd frontend && npm run build"
+  },
+  "author": "Shourya",
+  "license": "ISC",
+  "description": "microservices e-commerce shop",
+  "dependencies": {
+    "concurrently": "^9.2.3"
+  }
+}
