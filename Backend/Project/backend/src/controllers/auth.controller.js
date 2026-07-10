@@ -48,16 +48,6 @@ async function registerUser(req, res) {
       await sendEmail(email, "Welcome to ShopNest - Your OTP for Registration", message);
 
       res.status(201).json({ message:"User registered successfully. Please check your email for the OTP." });
-
-      // If you want to return a token after registration, use this instead:
-      
-      // res.status(201).json({
-      //   _id: newUser._id,
-      //   name: newUser.name,
-      //   email: newUser.email,
-      //   role: newUser.role,
-      //   token: generateToken(newUser._id, newUser.role),
-      // });
     
     } else {
       res.status(400).json({ message: "Invalid user data" });
