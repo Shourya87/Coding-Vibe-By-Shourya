@@ -115,3 +115,4 @@ console.log(typeof(direction));
 direction = "left"; // Error
 
 */
+Object.defineProperty(exports, "__esModule", { value: true });
