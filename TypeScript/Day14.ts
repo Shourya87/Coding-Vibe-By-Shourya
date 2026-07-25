@@ -34,7 +34,7 @@ PersonDataX = "name";
 
 // Index Signature
 type userDataType = {
-    [key: string]: number|string
+    readonly [key: string]: number|string
 }
 
 var userData : userDataType = {
