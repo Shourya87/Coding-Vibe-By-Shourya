@@ -7,3 +7,25 @@ function fruits<T>(name:T) : T {
 let onlyfruit = fruits("apple");
 let onlyNum = fruits(100);
 let onlyBool = fruits(true);
+
+
+
+
+// KeyOf
+type Person = {
+    name: string,
+    age: number,
+    is: boolean,
+}
+
+let PersonData : Person = {
+    name : "Riya",
+    age: 30,
+    is: true,
+}
+
+type PersonX = keyof Person;
+let PersonDataX: PersonX;
+
+PersonDataX = "age";
+PersonDataX = "name";
