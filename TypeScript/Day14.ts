@@ -29,3 +29,19 @@ let PersonDataX: PersonX;
 
 PersonDataX = "age";
 PersonDataX = "name";
+
+
+
+// Index Signature
+type userDataType = {
+    [key: string]: number|string
+}
+
+var userData : userDataType = {
+    mobile: 999,
+    id: 10,
+    marks: 40,
+    sem: 3,
+}
+
+console.log(userData.marks);

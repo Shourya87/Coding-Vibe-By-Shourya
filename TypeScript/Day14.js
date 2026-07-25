@@ -13,3 +13,10 @@ var PersonData = {
 var PersonDataX;
 PersonDataX = "age";
 PersonDataX = "name";
+var userData = {
+    mobile: 999,
+    id: 10,
+    marks: 40,
+    sem: 3,
+};
+console.log(userData.marks);
