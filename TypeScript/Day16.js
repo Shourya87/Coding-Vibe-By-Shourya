@@ -62,3 +62,18 @@ var CustomMaths1 = function () {
 }();
 var cm2 = new CustomMaths1();
 console.log(cm2.sum(10, 20));
+// Typed Promise
+function complexLogic() {
+    return new Promise(function (resolved) {
+        setTimeout(function () {
+            resolved("Result is here");
+        }, 2000);
+    });
+}
+complexLogic().then(function (data) {
+    console.log(data);
+    test2();
+});
+function test2() {
+    console.log("Test2");
+}

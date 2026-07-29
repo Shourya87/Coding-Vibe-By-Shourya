@@ -15,3 +15,24 @@ class CustomMaths1 {
 
 const cm2 = new CustomMaths1();
 console.log(cm2.sum(10, 20));
+
+
+
+
+// Typed Promise
+function complexLogic(): Promise<string> {
+    return new Promise((resolved) => {
+        setTimeout(() => {
+            resolved("Result is here")
+        }, 2000);
+    })
+}
+
+complexLogic().then((data:string)=>{
+    console.log(data);
+
+    test2();
+})
+function test2() {
+    console.log("Test2");
+}
